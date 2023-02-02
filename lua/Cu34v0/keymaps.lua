@@ -63,6 +63,8 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 -- Guardar
 keymap("n", "<C-s>", ":w<CR>", opts)
+-- Salir
+keymap("n", "<leader>e", ":q<CR>", opts)
 
 -- Comentar
 keymap("v", "<leader>t", ":CommentToggle<CR>", opts)
